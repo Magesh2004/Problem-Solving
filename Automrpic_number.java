@@ -13,6 +13,7 @@ public class Automrpic_number {
             System.out.println("The number is not Automorphic..");
           
         }
+        S.close();
 
     }
 }
