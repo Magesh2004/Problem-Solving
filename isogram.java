@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class isogram {
+public class Isogram {
     public static void main(String[] args) {
         String a = "pen";
         boolean f = true;
