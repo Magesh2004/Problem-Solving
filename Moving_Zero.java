@@ -3,13 +3,13 @@ public class Moving_Zero {
         int[] a ={0,1,0,4,12}; 
         int j=0;
         for (int i=0;i<a.length;i++){
-            if(a[i]!=0 && a[j]==0){
+            if(a[i]==0 && a[j]!=0){
                 int temp = a[j];
                 a[j]=a[i];
                 a[i]=temp;
             }
         
-            if(a[j]!=0){
+            if(a[j]==0){
                 j++;
             }  
         }     
